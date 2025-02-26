@@ -22,7 +22,8 @@ export default function Home() {
               <h1 className="mb-2 md:mb-4 max-w-4xl">
                 <span className="hidden md:block">
                     <GradualSpacing
-                      className="text-4xl md:text-9xl font-avantgarde-bold text-[#212e21] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] text-left"
+                      className="text-4xl md:text-9xl font-avantgarde-bold text-[#212e21] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] text-left pt-1 leading-tight"
+                      style={{ transform: 'translateZ(0)' }}
                       containerClassName="justify-start"
                       text="Sokorro"
                     />

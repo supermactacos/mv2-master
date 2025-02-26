@@ -11,6 +11,7 @@ interface GradualSpacingProps {
   framerProps?: Variants;
   className?: string;
   containerClassName?: string;
+  style?: React.CSSProperties;
 }
 
 export default function GradualSpacing({
@@ -23,9 +24,10 @@ export default function GradualSpacing({
   },
   className,
   containerClassName,
+  style,
 }: GradualSpacingProps) {
   return (
-    <div className={cn("flex space-x-1", containerClassName)}>
+    <div className={cn("flex space-x-1", containerClassName)} style={style}>
       <AnimatePresence>
         {text.split("").map((char, i) => (
           <motion.h1
