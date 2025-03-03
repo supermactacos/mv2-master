@@ -10,7 +10,7 @@ const Footer = () => {
             <p>© 2025 Sokorro</p>
             <span className="mx-2">•</span>
             <Link 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/kevinfordfrancis" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:opacity-75 transition-opacity inline-flex items-center gap-1"
