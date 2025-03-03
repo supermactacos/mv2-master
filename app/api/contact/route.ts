@@ -1,5 +1,5 @@
-import FormData from "form-data";
-import * as Mailgun from "mailgun.js";
+import formData from 'form-data';
+import Mailgun from 'mailgun.js';
 import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
@@ -7,10 +7,11 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { name, email, message } = body;
 
-    const mailgun = new Mailgun.default(FormData);
+    const mailgun = new Mailgun(formData);
     const mg = mailgun.client({
-      username: "api",
-      key: process.env.MAILGUN_API_KEY || "",
+      username: 'api',
+      key: process.env.MAILGUN_API_KEY || '',
+      url: 'https://api.mailgun.net'
     });
 
     const data = await mg.messages.create(process.env.MAILGUN_DOMAIN || "", {
