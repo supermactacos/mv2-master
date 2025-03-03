@@ -57,7 +57,7 @@ export default function Home() {
             </div>
 
             <div className="pb-8 p-10 m  text-center">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4 md:pt-12">
                 Strategic Partnership, Proven Results
               </h2>
               <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto">
