@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#ebfc72]">
-      <main className="flex flex-col">
+    <div className="bg-[#ebfc72]">
+      <main>
         <Navbar />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
@@ -56,10 +56,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="py-8 md:py-20 flex justify-center">
-              <h2 className="text-4xl md:text-5xl font-bold mb-8 md:mb-20 text-[#212e21] text-center">
+            <div className="pb-8 p-10 m text-center">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4">
                 Strategic Partnership, Proven Results
               </h2>
+              <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto">
+                We integrate seamlessly with your team, delivering actionable insights and measurable outcomes that drive your business forward.
+              </p>
             </div>
           </div>
         </div>

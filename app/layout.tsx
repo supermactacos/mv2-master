@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "../components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const avantGardeBk = localFont({
   src: "../public/ITCAvantGardePro-Bk.otf",
@@ -24,10 +25,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${avantGardeBk.variable} ${avantGardeBold.variable} flex flex-col min-h-screen`}>
-        {children}
+    <html lang="en" className="h-full">
+      <body className={`${avantGardeBk.variable} ${avantGardeBold.variable} flex flex-col min-h-screen bg-[#ebfc72] h-full`}>
+        <div className="flex-1">
+          {children}
+        </div>
         <Footer />
+        <Toaster />
       </body>
     </html>
   );

@@ -5,19 +5,18 @@ import Navbar from '@/components/Navbar';
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-[#ebfc72]">
-      <main className="flex flex-col">
+    <div className="flex-1">
+      <main>
         <Navbar />
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
-            <div className="pt-10 md:pt-20">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-8 md:mb-16 text-[#212e21]">
+            <div className="pt-8 pb-4">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]">
                 About Us
               </h1>
 
-              {/* Team Section */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start mb-8">
                 <div className="w-full aspect-[16/11] mb-6 md:mb-0">
                   <Image
                     src="/sokor.jpg"
@@ -38,28 +37,30 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Values Section */}
-              <div className="py-6 md:py-10">
-                <h2 className="text-3xl md:text-5xl font-avantgarde-bold mb-12 text-[#212e21]">
+              <div className="mb-8">
+                <h2 className="text-3xl md:text-6xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]">
                   Our Values
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Expertise</h3>
-                    <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                    We leverage decades of enterprise IT expertise to deliver optimal outcomes for every client engagement.
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                  <div>
+                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Expertise</h3>
+                    <p className="text-lg text-[#212e21]">
+                      We leverage decades of enterprise IT expertise to deliver optimal outcomes for every client engagement.
                     </p>
                   </div>
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Transparency</h3>
-                    <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                    We ensure clear communication and unbiased guidance at every step, maintaining complete vendor neutrality.
+
+                  <div>
+                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Transparency</h3>
+                    <p className="text-lg text-[#212e21]">
+                      We ensure clear communication and unbiased guidance at every step, maintaining complete vendor neutrality.
                     </p>
                   </div>
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Partnership</h3>
-                    <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                    We integrate seamlessly with your team, acting as trusted advisors fully aligned with your strategic objectives.
+
+                  <div>
+                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Partnership</h3>
+                    <p className="text-lg text-[#212e21]">
+                      We integrate seamlessly with your team, acting as trusted advisors fully aligned with your strategic objectives.
                     </p>
                   </div>
                 </div>
