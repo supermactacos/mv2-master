@@ -18,7 +18,7 @@ export default function Solutions() {
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             {/* Header Section */}
             <div className="pt-10 md:pt-20 w-full">
-              <h1 className="text-3xl md:text-6xl font-avantgarde-bold leading-tight mb-8 md:mb-16 max-w-3xl text-[#212e21]">
+              <h1 className="text-4xl md:text-6xl font-avantgarde-bold leading-tight mb-8 md:mb-16 max-w-3xl text-[#212e21]">
               Solutions
               </h1>
             </div>
