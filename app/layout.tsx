@@ -77,9 +77,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${avantGardeBk.variable} ${avantGardeBold.variable} flex flex-col min-h-screen bg-[#ebfc72] h-full`}>
-        <div className="flex-1">
+    <html lang="en" className="bg-[#ebfc72]">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1" />
+        <meta name="theme-color" content="#ebfc72" />
+      </head>
+      <body 
+        className={`${avantGardeBk.variable} ${avantGardeBold.variable} flex flex-col min-h-screen bg-[#ebfc72]`}
+        style={{
+          WebkitTextSizeAdjust: '100%',
+          backgroundColor: '#ebfc72'
+        }}
+      >
+        <div className="flex-1 bg-[#ebfc72]" style={{ backgroundColor: '#ebfc72' }}>
           {children}
         </div>
         <Footer />

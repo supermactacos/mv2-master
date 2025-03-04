@@ -10,7 +10,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: #ebfc72;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -62,13 +62,42 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+    height: -webkit-fill-available;
+    background-color: #ebfc72;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background-color: #ebfc72 !important;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  #__next {
+    background-color: #ebfc72;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
+  div#__next > div {
+    background-color: #ebfc72;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
   }
 }
