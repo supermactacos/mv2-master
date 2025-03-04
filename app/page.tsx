@@ -37,34 +37,32 @@ export default function Home() {
   Your Data Center Advisory and Infrastructure Partner.
               </h2>
 
-              <div className="w-[80%] mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
-                  <div className="w-full aspect-[16/11] mb-6 md:mb-0">
-                    <Image
-                      src="/castle.jpg"
-                      alt="Lighthouse on rocky coast"
-                      width={2000}
-                      height={1500}
-                      className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full h-full object-cover object-center"
-                      priority
-                    />
-                  </div>
-                  <div className="space-y-4 md:space-y-6">
-                    <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                      Combining decades of experience with a global network of supplier partners, we help buyers navigate the complexities of the technology landscape and precisely match their unique needs with the optimal solution. Sokorro operates as an extension of your organization, managing vendor diligence and procurement processes and negotiating the most favorable contract. Our proven methodology transforms challenging infrastructure decisions into clear, actionable outcomes by applying industry-tested frameworks that reduce risk and accelerate implementation.
-                    </p>
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
+                <div className="w-full aspect-[16/11] mb-6 md:mb-0">
+                  <Image
+                    src="/castle.jpg"
+                    alt="Lighthouse on rocky coast"
+                    width={2000}
+                    height={1500}
+                    className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full h-full object-cover object-center"
+                    priority
+                  />
                 </div>
-
-                <div className="pb-8 p-10 m text-center">
-                  <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4 md:pt-12">
-                    Strategic Partnership, Proven Results
-                  </h2>
-                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto">
-                    We integrate seamlessly with your team, delivering actionable insights and measurable outcomes that drive your business forward.
+                <div className="space-y-4 md:space-y-6">
+                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
+                    Combining decades of experience with a global network of supplier partners, we help buyers navigate the complexities of the technology landscape and precisely match their unique needs with the optimal solution. Sokorro operates as an extension of your organization, managing vendor diligence and procurement processes and negotiating the most favorable contract. Our proven methodology transforms challenging infrastructure decisions into clear, actionable outcomes by applying industry-tested frameworks that reduce risk and accelerate implementation.
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div className="pb-8 p-10 m  text-center">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4 md:pt-12">
+                Strategic Partnership, Proven Results
+              </h2>
+              <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto">
+                We integrate seamlessly with your team, delivering actionable insights and measurable outcomes that drive your business forward.
+              </p>
             </div>
           </div>
         </div>
