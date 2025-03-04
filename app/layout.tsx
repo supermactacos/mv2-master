@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     siteName: "Sokorro",
     images: [
       {
-        url: "/sk-logo.png", // Using your existing logo
+        url: "/og-image.png",  // This should be 1200x630px for optimal display
         width: 1200,
         height: 630,
-        alt: "Sokorro Logo",
-      },
+        alt: "Sokorro - Data Center Advisory and IT Infrastructure Partner",
+      }
     ],
     locale: "en_US",
     type: "website",
@@ -37,17 +37,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sokorro",
     description: "Your Data Center Advisory and IT Infrastructure Partner",
-    images: ["/sk-logo.png"],
+    images: ["/og-image.png"],  // Using the same large image for Twitter cards
     creator: "@sokorro", // Replace with your Twitter handle
   },
   icons: {
-    // Favicon
-    icon: '/favicon.ico',
-    // Apple Touch Icon
+    // Using sk-logo.png for icons
+    icon: '/sk-logo.png',
     apple: '/apple-touch-icon.png',
-    // Other icons
     shortcut: ['/favicon-16x16.png', '/favicon-32x32.png'],
-    // For Android/PWA
     other: [
       {
         rel: 'apple-touch-icon',
