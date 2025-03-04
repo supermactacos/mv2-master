@@ -12,7 +12,7 @@ export default function Why() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             {/* Hero Section */}
-            <div className="pt-10 md:pt-20 mb-20">
+            <div className="pt-8 mb-20">
               <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-8 md:mb-16 text-[#212e21]">
                 Why?
               </h1>

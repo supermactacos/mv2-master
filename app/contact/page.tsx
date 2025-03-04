@@ -86,15 +86,15 @@ export default function Contact() {
                     
                     <div>
                       <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Phone</h3>
-                      <a href="tel:+1234567890" className="text-lg text-[#212e21] hover:opacity-75 transition-opacity">
-                        +1 (234) 567-890
+                      <a href="tel:+15128080550" className="text-lg text-[#212e21] hover:opacity-75 transition-opacity">
+                        +1 (512) 808-0550
                       </a>
                     </div>
                     
                     <div>
                       <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Location</h3>
                       <p className="text-lg text-[#212e21]">
-                        San Francisco Bay Area, CA
+                        Austin, TX
                       </p>
                     </div>
                   </div>

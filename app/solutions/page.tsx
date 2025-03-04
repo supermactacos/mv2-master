@@ -1,5 +1,8 @@
 "use client";
 // make skinier
+//flip datacenter down to below image on all images
+//
+//make bullet point text size same
 
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -18,16 +21,16 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             {/* Header Section */}
-            <div className="pt-10 md:pt-20 w-full">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold leading-tight mb-8 md:mb-16 max-w-3xl text-[#212e21]">
+            <div className="pt-8 w-full">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold leading-tight mb-4 md:mb-8 max-w-3xl text-[#212e21]">
               Solutions
               </h1>
             </div>
           
             {/* Colocation Section */}
-            <div className="py-10 md:py-20 w-full">
+            <div className="py-1 w-full">
               <div className="max-w-5xl space-y-8">
-                <h3 className="text-3xl font-avantgarde-bold text-[#212e21] mb-6">Data Center</h3>
+               
                 <Image
                   src="/lake.jpg"
                   alt="Data Center"
@@ -35,6 +38,7 @@ export default function Solutions() {
                   height={600}
                   className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full"
                 />
+                 <h3 className="text-3xl font-avantgarde-bold text-[#212e21] mb-6">Data Center</h3>
                 <div className="space-y-6">
                   <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
                   The data center industry has experienced unprecedented demand in recent years fueling wide spread capacity shortages and rising prices. Unfortunately these trends have shifted the balance of power into providers' hands making it difficult to source the right colocation space and negotiate a favorable contract.
