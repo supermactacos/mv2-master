@@ -88,7 +88,7 @@ Thanks to our unique institutional knowledge, Sokorro can quickly identify the p
             </div>
 
             {/* Cloud Section */}
-            <div className="py-10 md:py-20 w-full">
+            <div className="py-8 md:py-12 w-full">
               <div className="max-w-5xl space-y-8">
                 <Image
                   src="/5.avif"
@@ -110,7 +110,7 @@ Thanks to our unique institutional knowledge, Sokorro can quickly identify the p
             </div>
 
             {/* Network Section */}
-            <div className="py-10 md:py-20 w-full">
+            <div className="py-2 md:py-2 w-full">
               <div className="max-w-5xl space-y-8">
                 <Image
                   src="/tester.jpg"
@@ -126,7 +126,7 @@ Thanks to our unique institutional knowledge, Sokorro can quickly identify the p
                     Understanding the market for network technologies and picking the right provider can be a frustrating and time consuming affair for any enterprise. Sokorro simplifies the procurement of network services by taking on the  tedium of vendor sales engagement, reducing headaches and optimizing outcomes along the way. We are provider agnostic and remain by your side throughout the lifecycle of your network keeping your vendors accountable and honest.
                     
                     </p>
-                    <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
+                    <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21] pb-10">
                     Our competencies include IP transit, private line and Ethernet, SD-WAN and cloud connectivity.
                     </p>
                   </div>

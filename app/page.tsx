@@ -60,7 +60,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold text-[#212e21] mb-4 md:pt-12">
                 Strategic Partnership, Proven Results
               </h2>
-              <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] max-w-2xl mx-auto pb-4">
                 We integrate seamlessly with your team, delivering actionable insights and measurable outcomes that drive your business forward.
               </p>
             </div>
