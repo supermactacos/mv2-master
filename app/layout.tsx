@@ -17,6 +17,29 @@ const avantGardeBold = localFont({
 export const metadata: Metadata = {
   title: "Sokorro",
   description: "Your Data Center Advisory and IT Infrastructure Partner",
+  openGraph: {
+    title: "Sokorro",
+    description: "Your Data Center Advisory and IT Infrastructure Partner",
+    url: "https://sokorro.com", // Replace with your actual domain
+    siteName: "Sokorro",
+    images: [
+      {
+        url: "/sk-logo.png", // Using your existing logo
+        width: 1200,
+        height: 630,
+        alt: "Sokorro Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sokorro",
+    description: "Your Data Center Advisory and IT Infrastructure Partner",
+    images: ["/sk-logo.png"],
+    creator: "@sokorro", // Replace with your Twitter handle
+  },
   icons: {
     // Favicon
     icon: '/favicon.ico',

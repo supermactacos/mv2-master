@@ -94,7 +94,7 @@ export default function Contact() {
                     <div>
                       <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Location</h3>
                       <p className="text-lg text-[#212e21]">
-                        Austin, TX
+                        Austin, TX and San Francisco, CA
                       </p>
                     </div>
                   </div>

@@ -53,15 +53,35 @@ Thanks to our unique institutional knowledge, Sokorro can quickly identify the p
 
                   {/* Expertise List */}
                   <div className="mt-12">
-                    <h4 className="text-xl font-avantgarde-bold text-[#212e21] mb-6">In addition to commercial guidance our team provides differentiated technical expertise within the data center including:</h4>
-                    <ul className="list-disc pl-6 space-y-4 text-[#212e21]">
-                      <li>Strategic risk analysis of mission critical operations identifying issues and providing creative solutions</li>
-                      <li>Developing audit compliant processes and procedures</li>
-                      <li>Operational expertise for site selection, greenfield and brownfield builds, infrastructure upgrades and end user deployments</li>
-                      <li>Developing and executing project or site specific Level 5 IST commissioning protocols to the rack or individual branch circuit level</li>
-                      <li>Developing site specific staffing and technical training plans including job descriptions, interview and hiring guidance and retention and succession planning</li>
-                      <li>Developing customer or site specific operating procedures with a focus on mitigating "human error" - MOPs / SOPs / EOPs, incident and vendor management</li>
-                    </ul>
+                    {/* Mobile Bullet Points Version */}
+                    <div className="md:hidden">
+                      <h4 className="text-xl font-avantgarde-bold text-[#212e21] mb-6">In addition to commercial guidance our team provides differentiated technical expertise within the data center including:</h4>
+                      <ul className="list-disc pl-6 space-y-4 text-[#212e21]">
+                        <li>Strategic risk analysis of mission critical operations identifying issues and providing creative solutions</li>
+                        <li>Developing audit compliant processes and procedures</li>
+                        <li>Operational expertise for site selection, greenfield and brownfield builds, infrastructure upgrades and end user deployments</li>
+                        <li>Developing and executing project or site specific Level 5 IST commissioning protocols to the rack or individual branch circuit level</li>
+                        <li>Developing site specific staffing and technical training plans including job descriptions, interview and hiring guidance and retention and succession planning</li>
+                        <li>Developing customer or site specific operating procedures with a focus on mitigating "human error" - MOPs / SOPs / EOPs, incident and vendor management</li>
+                      </ul>
+                    </div>
+
+                    {/* Desktop Accordion Version */}
+                    <details className="hidden md:block bg-[#ebfc72] border-2 border-[#212e21] rounded-lg shadow-[0_15px_30px_rgba(0,0,0,0.2)] overflow-hidden">
+                      <summary className="text-xl font-avantgarde-bold text-[#212e21] p-6 cursor-pointer hover:bg-[#d9e865] transition-colors duration-200">
+                        In addition to commercial guidance our team provides differentiated technical expertise within the data center including:
+                      </summary>
+                      <div className="p-6 bg-[#ebfc72] border-t-2 border-[#212e21]">
+                        <ul className="list-disc pl-6 space-y-4 text-[#212e21]">
+                          <li>Strategic risk analysis of mission critical operations identifying issues and providing creative solutions</li>
+                          <li>Developing audit compliant processes and procedures</li>
+                          <li>Operational expertise for site selection, greenfield and brownfield builds, infrastructure upgrades and end user deployments</li>
+                          <li>Developing and executing project or site specific Level 5 IST commissioning protocols to the rack or individual branch circuit level</li>
+                          <li>Developing site specific staffing and technical training plans including job descriptions, interview and hiring guidance and retention and succession planning</li>
+                          <li>Developing customer or site specific operating procedures with a focus on mitigating "human error" - MOPs / SOPs / EOPs, incident and vendor management</li>
+                        </ul>
+                      </div>
+                    </details>
                   </div>
                 </div>
               </div>
