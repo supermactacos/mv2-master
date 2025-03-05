@@ -64,7 +64,7 @@ export default function Why() {
             {/* Featured Image Section */}
             <div className="mb-20">
               <Image
-                src="/2.avif"
+                src="/sokorrodc.png"
                 alt="Technology Solutions"
                 width={2000}
                 height={1000}
