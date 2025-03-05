@@ -19,7 +19,7 @@ export default function About() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start mb-8">
                 <div className="w-full aspect-[16/11] mb-6 md:mb-0">
                   <Image
-                    src="/sokor.jpg"
+                    src="/about.png"
                     alt="Sokorro Team"
                     width={2000}
                     height={1500}
@@ -28,7 +28,7 @@ export default function About() {
                   />
                 </div>
                 <div className="space-y-6">
-                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
+                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] py-10">
                   Founded by industry veterans, we bring decades of specialized expertise in enterprise data center infrastructure, cloud computing, and network solutions.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
@@ -37,28 +37,28 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="mb-8">
+              <div className="mb-8 py-14">
                 <h2 className="text-3xl md:text-6xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]">
                   Our Values
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                   <div>
-                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Expertise</h3>
+                    <h3 className="text-xl md:text-3xl font-avantgarde-bold text-[#212e21] mb-2">Expertise</h3>
                     <p className="text-lg text-[#212e21]">
                       We leverage decades of enterprise IT expertise to deliver optimal outcomes for every client engagement.
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Transparency</h3>
+                    <h3 className="text-xl md:text-3xl font-avantgarde-bold text-[#212e21] mb-2">Transparency</h3>
                     <p className="text-lg text-[#212e21]">
                       We ensure clear communication and unbiased guidance at every step, maintaining complete vendor neutrality.
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-avantgarde-bold text-[#212e21] mb-2">Partnership</h3>
+                    <h3 className="text-xl md:text-3xl font-avantgarde-bold text-[#212e21] mb-2">Partnership</h3>
                     <p className="text-lg text-[#212e21]">
                       We integrate seamlessly with your team, acting as trusted advisors fully aligned with your strategic objectives.
                     </p>
