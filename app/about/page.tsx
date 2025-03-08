@@ -12,12 +12,12 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-8 pb-4">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]  drop-shadow-[0_6px_6px_rgba(0,0,0,0.35)]">
                 About Us
               </h1>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start mb-8">
-                <div className="w-full aspect-[16/11] mb-6 md:mb-0">
+                <div className="w-full aspect-[16/12.1] mb-6 md:mb-0">
                   <Image
                     src="/about.png"
                     alt="Sokorro Team"
@@ -27,12 +27,12 @@ export default function About() {
                     priority
                   />
                 </div>
-                <div className="space-y-6">
-                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21] py-10">
-                  Founded by industry veterans, we bring decades of specialized expertise in enterprise data center infrastructure, cloud computing, and network solutions.
+                <div className="space-y-6 mt-3">
+                  <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
+                  Founded by industry veterans, we bring decades of specialized expertise in enterprise data center infrastructure, cloud computing, and network solutions. 
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  Our mission is to transform complex IT infrastructure decisions into strategic business advantages, empowering organizations to make confident, informed choices.
+                  Our mission is to transform complex IT infrastructure decisions into strategic business advantages, empowering organizations to make confident, informed choices. <br /> <br /> We've helped hundreds of enterprises navigate sophisticated technology decisions with particular expertise in sectors like social media, gaming, IaaS and streaming.
                   </p>
                 </div>
               </div>

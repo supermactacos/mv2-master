@@ -22,7 +22,7 @@ export default function Solutions() {
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             {/* Header Section */}
             <div className="pt-8 w-full">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold leading-tight mb-4 md:mb-8 max-w-3xl text-[#212e21]">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold leading-tight mb-4 md:mb-8 max-w-3xl text-[#212e21]  drop-shadow-[0_6px_6px_rgba(0,0,0,0.35)]">
               Solutions
               </h1>
             </div>
@@ -113,11 +113,11 @@ Thanks to our unique institutional knowledge, Sokorro can quickly identify the p
             <div className="py-2 md:py-2 w-full">
               <div className="max-w-5xl space-y-8">
                 <Image
-                  src="/tester.jpg"
+                  src="/2.avif"
                   alt="Network Infrastructure"
                   width={1200}
                   height={600}
-                  className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full"
+                  className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full h-[450px] object-cover"
                 />
                 <div className="ml-[10%] mr-[10%]">
                   <h3 className="text-3xl font-avantgarde-bold text-[#212e21] mb-6">Network</h3>

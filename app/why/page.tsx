@@ -13,7 +13,7 @@ export default function Why() {
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             {/* Hero Section */}
             <div className="pt-8 mb-20">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-8 md:mb-16 text-[#212e21]">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-8 md:mb-16 text-[#212e21] drop-shadow-[0_6px_6px_rgba(0,0,0,0.35)]">
                 Why?
               </h1>
 
@@ -24,14 +24,7 @@ export default function Why() {
 
             {/* Core Values Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
-              <div className="space-y-4">
-                <h2 className="text-2xl md:text-3xl font-avantgarde-bold text-[#212e21]">
-                  Knowledgeable
-                </h2>
-                <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                  Our multi-disciplined team delivers deep insights and strong industry relationships in the dynamic and rapidly evolving IT marketplace.
-                </p>
-              </div>
+             
 
               <div className="space-y-4">
                 <h2 className="text-2xl md:text-3xl font-avantgarde-bold text-[#212e21]">
@@ -42,6 +35,7 @@ export default function Why() {
                 </p>
               </div>
 
+
               <div className="space-y-4">
                 <h2 className="text-2xl md:text-3xl font-avantgarde-bold text-[#212e21]">
                   Convenient
@@ -50,6 +44,17 @@ export default function Why() {
                   We eliminate the time-consuming process of researching technologies and qualifying vendors. As your advocate, we orchestrate the entire journey.
                 </p>
               </div>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl md:text-3xl font-avantgarde-bold text-[#212e21]">
+                  Knowledgeable
+                </h2>
+                <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                  Our multi-disciplined team delivers deep insights and strong industry relationships in the dynamic and rapidly evolving IT marketplace.
+                </p>
+              </div>
+
+            
 
               <div className="space-y-4">
                 <h2 className="text-2xl md:text-3xl font-avantgarde-bold text-[#212e21]">

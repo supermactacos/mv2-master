@@ -52,7 +52,7 @@ export default function Navbar({ className }: NavbarProps) {
       <nav className={`w-full px-8 py-6 flex justify-between items-center ${className}`}>
         <Link href="/" className="text-[#212e21]">
           <Image
-            src="/sk-logo.png"
+            src="/sk-logo.svg"
             alt="Sokorro Logo"
             width={80}
             height={80}

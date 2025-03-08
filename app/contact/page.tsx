@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-8 pb-4">
-              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]">
+              <h1 className="text-4xl md:text-8xl font-avantgarde-bold mb-4 md:mb-8 text-[#212e21]  drop-shadow-[0_6px_6px_rgba(0,0,0,0.35)]">
                 Get In Touch
               </h1>
 
